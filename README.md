@@ -1,4 +1,4 @@
-Recipe Collection App
+Recipe Collection
 
 Written with HTML, CSS & JavaScript 
 
