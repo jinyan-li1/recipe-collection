@@ -1,16 +1,12 @@
-# assignment-02
+Recipe Collection App
 
-Create an API using nodejs and express that does CRUD (Create, Read, Update and Delete) operations using Mysql. Put the API in a `api` folder.
+Written with Vanilla HTML, CSS & JavaScript 
 
-Example applications: note-taking, recipe collection, movie/book review, blog,... etc
+API folder contains an API using nodejs and express that does CRUD (Create, Read, Update and Delete) operations using Mysql. 
 
-Create a client webpage that connects to your API and includes the following pages:
-- Show lists of all the existing items in the database
-- Show details of each individual item when the user selects
-- Give edit and delete option for each item
-- Add a new item to the database using a form (with at least 2 fields)
-- Make sure you have data validation in both frontend and backend
-
-Put the webpage in a `client` folder
-
-Write clear, clean, and concise code. Functions should perform only one task. Function and variable names should be meaningful (not x) to let other developers know what they are used for. This should show consideration and problem-solving skills, try to do things as efficiently as you can. All HTML pages will be validated with W3C validator. Your CSS code should not contain any unnecessary and duplicate style
+Client folder contains a client webpage that connects to the API and includes the following functions:
+- Show lists of all the existing recipes in the database
+- Show details of each individual recipe when the user selects
+- Provide edit and delete option for each recipe
+- User can add a new recipe to the database using a form
+- Have data validation in both frontend and backend
