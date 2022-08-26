@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Recipes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+     rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <h1>Collection of My Favorite Recipes 💛</h1>
+    <img src="foods.jpg" alt="Fresh ingredients for cooking" width="550">
+    <div class="photo-credit">Photo by <a href="https://unsplash.com/@ellaolsson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+        Ella Olsson</a> on <a href="https://unsplash.com/s/photos/ingredients?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
+    <div onsubmit="createRecipe(event)" class="recipe-form-wrapper">
+        <form class="recipe-form" autocomplete="off">
+            <div>
+                <label for="recipe-name">Recipe Name: </label>
+                <input type="text" name="recipe-name" id="recipe-name" 
+                required minlength="1" maxlength="25"/>
+            </div>
+            <div>
+                <textarea type="text" id="recipe-content" name="recipe-content" 
+                rows="5" required minlength="1" maxlength="500"></textarea>
+            </div>
+            <button type="submit">Save</button>
+        </form>
+    </div>
+    <div class="recipe-list-wrapper">
+        <ul id="recipe-list-id" class="recipe-list"></ul>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
