@@ -1,8 +1,8 @@
 Recipe Collection App
 
-Written with Vanilla HTML, CSS & JavaScript 
+Written with HTML, CSS & JavaScript 
 
-API folder contains an API using nodejs and express that does CRUD (Create, Read, Update and Delete) operations using Mysql. 
+API folder contains an API using Node.js and Express that does CRUD (Create, Read, Update and Delete) operations using Mysql. 
 
 Client folder contains a client webpage that connects to the API and includes the following functions:
 - Show lists of all the existing recipes in the database
